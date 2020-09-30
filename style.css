@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+.start, .end, .obstacle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start {
+    margin: 10px auto;
+    width: 200px;
+    height: 50px;
+    background-color: brown;
+}
+
+.end {
+    margin: 10px auto;
+    width: 200px;
+    height: 50px;
+    background-color: brown;
+}
+
+.obstacle {
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    background-color: grey;
+}
